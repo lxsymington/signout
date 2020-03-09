@@ -7,7 +7,7 @@
 }
 
 .mainNavigation {
-    position: 0 auto;
+    margin: 0 auto;
 }
 
 .copyright {
@@ -15,7 +15,7 @@
     font-size-adjust: 0.4;
     position: fixed;
     bottom: 0;
-    justify-content: right;
+    text-align: right;
     color: white;
 }
 
@@ -47,7 +47,7 @@
 
 .hazardDamageContainer {
     display: flex;
-    margin: 1em auto 1em;
+    margin: 1em auto;
 }
 
 .hazardDamageContainer textarea {
@@ -56,14 +56,14 @@
 
 .frontPage {
     padding: 60px;
-    border-radius: 2%;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     background-color: white;
 }
 
 #clock {
-    margin:  10px;
+    margin: 10px;
 }
 
 .submit {
